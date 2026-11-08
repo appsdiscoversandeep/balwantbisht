@@ -1,0 +1,38 @@
+/* Politian static theme stylesheet entry point.
+   Original theme styles are kept locally to preserve the downloaded design.
+   Put project-specific changes in the custom overrides below. */
+@import url("../assets/wp-content/plugins/contact-form-7/includes/css/styles_ver=6.1.7.css");
+@import url("../assets/wp-content/plugins/politian-core/elementor/assets/css/politian-elementor_ver=1.0.0.css");
+@import url("../assets/wp-content/plugins/woocommerce/assets/css/woocommerce-layout_ver=11.1.1.css");
+@import url("../assets/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen_ver=11.1.1.css");
+@import url("../assets/wp-content/plugins/woocommerce/assets/css/woocommerce_ver=11.1.1.css");
+@import url("../assets/wp-content/plugins/give/build/assets/dist/css/give_ver=4.16.9.css");
+@import url("../assets/wp-content/plugins/give/build/assets/dist/css/design-system/foundation_ver=1.2.0.css");
+@import url("../assets/wp-content/themes/politian/assets/css/themify-icons_ver=4.6.3.css");
+@import url("../assets/wp-content/themes/politian/assets/css/flaticon_ver=1.0.0.css");
+@import url("../assets/wp-content/themes/politian/assets/css/bootstrap.min_ver=5.0.1.css");
+@import url("../assets/wp-content/themes/politian/assets/css/animate_ver=3.5.1.css");
+@import url("../assets/wp-content/themes/politian/assets/css/odometer_ver=0.4.8.css");
+@import url("../assets/wp-content/themes/politian/assets/css/progresscircle_ver=1.0.0.css");
+@import url("../assets/wp-content/themes/politian/assets/css/owl.carousel_ver=2.0.0.css");
+@import url("../assets/wp-content/themes/politian/assets/css/owl.theme_ver=2.0.0.css");
+@import url("../assets/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min_ver=8.4.5.css");
+@import url("../assets/wp-content/themes/politian/assets/css/slick_ver=1.6.0.css");
+@import url("../assets/wp-content/themes/politian/assets/css/slick-theme_ver=1.6.0.css");
+@import url("../assets/wp-content/themes/politian/assets/css/owl.transitions_ver=2.0.0.css");
+@import url("../assets/wp-content/themes/politian/assets/css/fancybox_ver=2.0.0.css");
+@import url("../assets/wp-content/themes/politian/assets/css/styles_ver=1.0.1.css");
+@import url("../assets/wp-content/themes/politian/assets/css/elements_ver=1.0.1.css");
+@import url("../assets/wp-content/themes/politian/assets/css/responsive_ver=1.0.1.css");
+@import url("../assets/wp-content/themes/politian/style_ver=7.0.8.css");
+@import url("../assets/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min_ver=5.53.0.css");
+@import url("../assets/wp-content/plugins/elementor/assets/css/frontend.min_ver=4.2.4.css");
+@import url("../assets/wp-content/uploads/elementor/css/post-6_ver=1790108051.css");
+@import url("../assets/wp-content/uploads/elementor/css/post-13_ver=1790172562.css");
+@import url("../assets/wp-content/uploads/elementor/css/post-46_ver=1790172562.css");
+
+/* Custom static-site overrides */
+html { scroll-behavior: smooth; }
+img { max-width: 100%; }
+a { transition: color .2s ease, background-color .2s ease; }
+@media (max-width: 767px) { .page-wrapper { overflow-x: hidden; } }
